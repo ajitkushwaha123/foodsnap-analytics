@@ -86,7 +86,6 @@ export default function TicketsPage() {
 
   const columns = getColumns({
     onEdit: handleEdit,
-    onDelete: (id) => {}, // Delete removed
   })
 
   return (

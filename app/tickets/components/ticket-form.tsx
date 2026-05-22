@@ -11,8 +11,8 @@ import { Ticket } from "../page"
 import { useEffect } from "react"
 
 const formSchema = z.object({
-  status: z.enum(["open", "in-progress", "closed"]).default("open"),
-  priority: z.enum(["low", "medium", "high"]).default("medium"),
+  status: z.enum(["open", "in-progress", "closed"]),
+  priority: z.enum(["low", "medium", "high"]),
 })
 
 interface TicketFormProps {
